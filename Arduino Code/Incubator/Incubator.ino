@@ -42,7 +42,6 @@ NOTE for first time users:
 #include <math.h>    // loads a library with more advanced math functions
 #include <Wire.h> // Needed for I2C connection
 #include "LiquidCrystal_I2C.h" // Needed for operating the LCD screen
-#include <OneWire.h>
 /* *******************************************************
 */
 
