@@ -77,9 +77,9 @@ double temp;            //Variable to hold a temperature value
 */
 
 /* *******************************************************
-/  Machine User Interface
+/  Time variables
 */
-long switch_time = 3000; // switch mosfet on or off once every 3 seconds
+long switch_time = 2000; // switch mosfet on or off once every 3 seconds
 long begin_switch_time = 0;
 long temp_time = 2000; // read temperature once every 2 seconds
 long begin_temp_time = 0;
@@ -91,7 +91,7 @@ int DS18S20_Pin = 10; //DS18S20 Signal pin on digital 10
 OneWire ds(DS18S20_Pin); // on digital pin 10
 
 // Temp sensor analog
-const int analogTempPin = A0;
+int analogTempPin = A0;
   
 void setup() {            //This function gets called when the Arduino starts
   Serial.begin(115200);   //This code sets up the Serial port at 115200 baud rate
@@ -117,9 +117,12 @@ void setup() {            //This function gets called when the Arduino starts
   lcd.setCursor(0,0); // Start writing from position 0 row 0, so top left
   lcd.print(F("BioHack Academy"));
   lcd.setCursor(0,1);
-  lcd.print(F("Incubator"));
+  lcd.print(F("Incubator test"));
   delay(1000);
-  lcd.clear();  
+  lcd.clear();
+
+  // The fan is always on
+  digitalWrite(fanPin, HIGH);
 }
 
 /* *******************************************************
@@ -169,9 +172,6 @@ void loop() {
     }
   }
   
-  // Keep spinning the fan
-  digitalWrite(fanPin, HIGH);
-  
   // Read the state of the pushbutton value:
   button1State = digitalRead(buttonPin1);
   button2State = digitalRead(buttonPin2); 
@@ -188,7 +188,7 @@ void loop() {
   else if (button2State == HIGH) {
     digitalWrite(ledPin, HIGH);
     --targetTemp;
-    if(targetTemp < 0) targetTemp = 0;  // Sanity check, do not allow temperatures higher than 50    
+    if(targetTemp < 0) targetTemp = 0;  // Sanity check, do not allow temperatures lower than 0   
     delay(500);
   }
   else {
