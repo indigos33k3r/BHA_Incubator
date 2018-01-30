@@ -21,7 +21,7 @@ These are the parts you will need to assemble the incubator:
 |11|1|Heating foil|[Floris.cc](https://www.floris.cc/shop/en/general-components/514-heating-pad-5x10cm.html), [Sparkfun](https://www.sparkfun.com/products/11288), [Conrad](https://www.conrad.nl/nl/thermo-verwarmingsfolie-zelfklevend-12-vdc-12-vac-22-w-veiligheidstype-ipx4-90-mm-1216623.html)|4.50|
 |12|1|Breadboard|[Farnell](http://nl.farnell.com/pro-signal/psg-bb-400/breadboard-400-pin-white/dp/2503765). [iPrototype](https://iprototype.nl/products/accessoires/breadboards-prints/halfbreadboard)|2.56|
 
-*Estimate total*: EUR 43.53
+*Estimate total*: EUR 37.93
 
 ### Components that are needed on top of the Biohack Board
 
@@ -52,6 +52,6 @@ In case you are using the [**BioHack Board**](https://github.com/BioHackAcademy/
 A lever switch for detecting whether the lid is closed and a speaker as an alarm would be nice.
 
 |No|Description|Supplier NL|Cost|
-| ------------: | ------------: | :------------ | :------------ | ------------: |
+| ------------: | ------------: | :------------ | ------------: |
 |1|Lever switch|[iPrototype](https://iprototype.nl/products/components/buttons-switches/micro-switch-right-lever)|1.99|
 |2|Speaker|[iPrototype](https://iprototype.nl/products/components/overige/piezo)|1.55|
