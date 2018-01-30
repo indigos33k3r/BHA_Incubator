@@ -41,7 +41,7 @@ In case you are using the [**BioHack Board**](https://github.com/BioHackAcademy/
 |9|1|Heating foil|[Floris.cc](https://www.floris.cc/shop/en/general-components/514-heating-pad-5x10cm.html), [Sparkfun](https://www.sparkfun.com/products/11288), [Conrad](https://www.conrad.nl/nl/thermo-verwarmingsfolie-zelfklevend-12-vdc-12-vac-22-w-veiligheidstype-ipx4-90-mm-1216623.html)|4.50|
 |10|1|Breadboard|[Farnell](http://nl.farnell.com/pro-signal/psg-bb-400/breadboard-400-pin-white/dp/2503765). [iPrototype](https://iprototype.nl/products/accessoires/breadboards-prints/halfbreadboard)|2.56|
 
-*Estimate total*: EUR 42.81
+*Estimate total*: EUR 42.72
 
 **Alternatives**
 
