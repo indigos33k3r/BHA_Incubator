@@ -21,7 +21,7 @@ These are the parts you will need to assemble the incubator:
 |11|1|Heating foil|[Sparkfun](https://www.sparkfun.com/products/11288), [Conrad](https://www.conrad.nl/nl/thermo-verwarmingsfolie-zelfklevend-12-vdc-12-vac-22-w-veiligheidstype-ipx4-90-mm-1216623.html)|4.50|
 |12|1|Breadboard|[Farnell](http://nl.farnell.com/pro-signal/psg-bb-400/breadboard-400-pin-white/dp/2503765). [iPrototype](https://iprototype.nl/products/accessoires/breadboards-prints/halfbreadboard)|2.56|
 
-*Estimate total*: EUR 37.93
+*Estimate total*: EUR 38.95
 
 ### Components that are needed on top of the Biohack Board
 
